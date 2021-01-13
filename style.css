@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+.header{
+    background-color: #FFFBF0;
+}
+.top-bar h1{
+    font-size:65px;
+}
+.top-bar .first-header{
+    color: #fabe4c;
+}
+.top-bar .second-header{
+    color: #363958;
+}
+.custom-button{
+    background-color: #76c27e;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+main h2{
+    font-size:40px;
+    color: #363958;
+}
+main h5{
+    font-size:30px;
+    color: #363958;
+}
+.product{
+    border-radius:1em;
+}
+.card-image{
+    background-color: #F1F1F1;
+    border-radius:10px;
+}
