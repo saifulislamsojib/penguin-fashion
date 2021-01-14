@@ -13,17 +13,12 @@ body{
 .top-bar .second-header{
     color: #363958;
 }
-.custom-button{
-    background-color: #76c27e;
-    padding: 12px 20px;
-    border-radius: 10px;
-}
 main h2{
-    font-size:40px;
+    font-size:30px;
     color: #363958;
 }
 main h5{
-    font-size:30px;
+    font-size:23px;
     color: #363958;
 }
 .product{
@@ -32,4 +27,66 @@ main h5{
 .card-image{
     background-color: #F1F1F1;
     border-radius:10px;
+    display: flex;
+    justify-content:center;
+}
+.jacket-1{
+    width:75%;
+}
+.jacket-2{
+    width:68%;
+}
+.woman-jacket-3{
+    width:90.5%;
+}
+.man-jacket-3{
+    width:94%;
+}
+.border-radius{
+    border-radius:1em;
+}
+.stroke{
+    width:115px;
+    height: 8px;
+    border-radius:10px;
+    background-image: linear-gradient(90deg, tomato, lightsalmon);
+}
+#contact{
+    background-color: #7bb4bd;
+    height: 600px;
+    border-radius:20px;
+}
+.fa-youtube{
+    color: #f00;
+}
+.fa-twitter-square{
+    color: #1699ff;
+}
+.fa-facebook{
+    color:  #0267e2;
+}
+
+/* Responsive Media Query */
+@media (min-width: 1200px) { 
+    .first-inventories img{
+        width: 60%;
+    }
+ }
+ @media (max-width: 1200px) { 
+    .first-inventories img{
+        width: 80%;
+    }
+ }
+ @media (max-width: 992px) { 
+    .first-inventories img{
+        width: 60%;
+    }
+ }
+@media (max-width: 768px) {
+    .first-inventories img{
+        width: 33%;
+    }
+    .first-inventories h5{
+        margin-top: 10px;
+    }
 }
